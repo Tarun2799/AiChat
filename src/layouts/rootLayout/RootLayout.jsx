@@ -18,13 +18,13 @@ const RootLayout = () => {
       <div className='rootLayout'>
           <header>
               <Link to="/" className='logo'>
-                  <img src='/logo.png'/>
+                  <img src='/TJ_LOGO.png'/>
                   <span>AI CHAT</span>
               </Link>
               <div className="user">
                 {/* <SignedOut>
                   <SignInButton />
-                </SignedOut> */}
+                </SignedOut>  beacuse we are protecting our route*/}
                 <SignedIn>
                   <UserButton />
                 </SignedIn>
